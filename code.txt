@@ -1,0 +1,209 @@
+#Create a simulator object
+set ns [new Simulator]
+
+#Open the nam trace file
+set nf [open out.nam w]
+$ns namtrace-all $nf
+
+#Define a 'finish' procedure
+proc finish {} {
+        global ns nf
+        $ns flush-trace
+	#Close the trace file
+        close $nf
+	#Execute nam on the trace file
+        exec nam out.nam &
+        exit 0
+}
+# Node create and decaration related work start
+
+#Create two nodes
+set n0 [$ns node]
+set n1 [$ns node]
+set n2 [$ns node]
+set n3 [$ns node]
+set n4 [$ns node]
+set n5 [$ns node]
+set n6 [$ns node]
+set n7 [$ns node]
+set n8 [$ns node]
+set n9 [$ns node]
+set n10 [$ns node]
+#Create a duplex link between the nodes
+$ns duplex-link $n0 $n1 1Mb 90ms DropTail
+$ns duplex-link $n0 $n2 1Mb 90ms DropTail
+$ns duplex-link $n1 $n3 1Mb 50ms DropTail
+$ns duplex-link $n1 $n4 1Mb 50ms DropTail
+$ns duplex-link $n3 $n4 1Mb 50ms DropTail
+$ns duplex-link $n2 $n5 1Mb 50ms DropTail
+$ns duplex-link $n2 $n6 1Mb 50ms DropTail
+$ns duplex-link $n3 $n7 1Mb 50ms DropTail
+$ns duplex-link $n4 $n8 1Mb 50ms DropTail
+$ns duplex-link $n5 $n9 1Mb 50ms DropTail
+$ns duplex-link $n6 $n10 1Mb 50ms DropTail
+$ns duplex-link $n7 $n8 1Mb 50ms DropTail
+$ns duplex-link $n5 $n6 1Mb 50ms DropTail
+$ns duplex-link $n9 $n10 1Mb 50ms DropTail
+#Set Queue Size of link (n2-n3) to 10
+$ns queue-limit $n3 $n4 10
+#Give node position (for NAM)
+$ns duplex-link-op $n0 $n1 orient left-down
+$ns duplex-link-op $n0 $n2 orient right-down
+$ns duplex-link-op $n1 $n3 orient left-down
+$ns duplex-link-op $n1 $n4 orient right-down
+$ns duplex-link-op $n3 $n4 orient right
+$ns duplex-link-op $n7 $n8 orient right
+$ns duplex-link-op $n5 $n6 orient right
+$ns duplex-link-op $n9 $n10 orient right
+$ns duplex-link-op $n2 $n5 orient left-down
+$ns duplex-link-op $n2 $n6 orient right-down
+$ns duplex-link-op $n3 $n7 orient down
+$ns duplex-link-op $n4 $n8 orient down
+$ns duplex-link-op $n5 $n9 orient down
+$ns duplex-link-op $n6 $n10 orient down
+#Monitor the queue for link (n2-n3). (for NAM)
+$ns duplex-link-op $n3 $n4 queuePos 10
+# Node create and decaration related work END
+
+
+
+#Create a TCP agent and attach it to node n0
+set tcp [new Agent/TCP]
+set tcp1 [new Agent/TCP]
+set tcp2 [new Agent/TCP]
+set tcp3 [new Agent/TCP]
+#2nd stage
+set tcp4 [new Agent/TCP]
+set tcp5 [new Agent/TCP]
+set tcp6 [new Agent/TCP]
+set tcp7 [new Agent/TCP]
+
+
+#$tcp set class_ 1
+#$tcp1 set class_ 2
+#$tcp2 set class_ 3
+#$tcp3 set class_ 4
+
+$ns attach-agent $n0 $tcp
+$ns attach-agent $n10 $tcp1
+$ns attach-agent $n9 $tcp2
+$ns attach-agent $n6 $tcp3
+#2nd stage
+$ns attach-agent $n0 $tcp4
+$ns attach-agent $n8 $tcp5
+$ns attach-agent $n4 $tcp6
+$ns attach-agent $n7 $tcp7
+
+#Create a TCP Sink agent (a traffic sink) for TCP and attach it to node n3
+set sink [new Agent/TCPSink]
+set sink1 [new Agent/TCPSink]
+set sink2 [new Agent/TCPSink]
+set sink3 [new Agent/TCPSink]
+#2nd stage
+set sink4 [new Agent/TCPSink]
+set sink5 [new Agent/TCPSink]
+set sink6 [new Agent/TCPSink]
+set sink7 [new Agent/TCPSink]
+
+$ns attach-agent $n2 $sink
+$ns attach-agent $n6 $sink
+$ns attach-agent $n10 $sink
+$ns attach-agent $n9 $sink1
+$ns attach-agent $n5 $sink2
+$ns attach-agent $n2 $sink2
+$ns attach-agent $n0 $sink2
+$ns attach-agent $n5 $sink3
+#2nd stage
+$ns attach-agent $n1 $sink4
+$ns attach-agent $n4 $sink4
+$ns attach-agent $n8 $sink4
+$ns attach-agent $n7 $sink5
+$ns attach-agent $n3 $sink6
+$ns attach-agent $n3 $sink7
+$ns attach-agent $n1 $sink7
+$ns attach-agent $n0 $sink7
+
+
+
+#Connect the traffic sources with the traffic sink
+$ns connect $tcp $sink
+$ns connect $tcp1 $sink1
+$ns connect $tcp2 $sink2
+$ns connect $tcp3 $sink3
+#2nd stage
+$ns connect $tcp4 $sink4
+$ns connect $tcp5 $sink5
+$ns connect $tcp6 $sink6
+$ns connect $tcp7 $sink7
+
+# Create a CBR traffic source and attach it to tcp0
+set cbr [new Application/Traffic/CBR]
+set cbr1 [new Application/Traffic/CBR]
+set cbr2 [new Application/Traffic/CBR]
+set cbr3 [new Application/Traffic/CBR]
+#2nd stage
+set cbr4 [new Application/Traffic/CBR]
+set cbr5 [new Application/Traffic/CBR]
+set cbr6 [new Application/Traffic/CBR]
+set cbr7 [new Application/Traffic/CBR]
+
+$cbr set packetSize_ 500
+$cbr set interval_ 0.01
+$cbr attach-agent $tcp
+$cbr1 set packetSize_ 500
+$cbr1 set interval_ 0.01
+$cbr1 attach-agent $tcp1
+$cbr2 set packetSize_ 500
+$cbr2 set interval_ 0.01
+$cbr2 attach-agent $tcp2
+$cbr3 set packetSize_ 500
+$cbr3 set interval_ 0.01
+$cbr3 attach-agent $tcp3
+#2nd stage
+$cbr4 set packetSize_ 500
+$cbr4 set interval_ 0.01
+$cbr4 attach-agent $tcp4
+$cbr5 set packetSize_ 500
+$cbr5 set interval_ 0.01
+$cbr5 attach-agent $tcp5
+$cbr6 set packetSize_ 500
+$cbr6 set interval_ 0.01
+$cbr6 attach-agent $tcp6
+$cbr7 set packetSize_ 500
+$cbr7 set interval_ 0.01
+$cbr7 attach-agent $tcp7
+
+
+
+#Schedule events for the CBR agents
+$ns at 0.5 "$cbr start"
+$ns at 4.5 "$cbr stop"
+$ns at 0.5 "$cbr1 start"
+$ns at 4.5 "$cbr1 stop"
+$ns at 0.5 "$cbr2 start"
+$ns at 4.5 "$cbr2 stop"
+$ns at 0.5 "$cbr3 start"
+$ns at 4.5 "$cbr3 stop"
+#2nd stage
+$ns at 0.5 "$cbr4 start"
+$ns at 4.5 "$cbr4 stop"
+$ns at 0.5 "$cbr5 start"
+$ns at 4.5 "$cbr5 stop"
+$ns at 0.5 "$cbr6 start"
+$ns at 4.5 "$cbr6 stop"
+$ns at 0.5 "$cbr7 start"
+$ns at 4.5 "$cbr7 stop"
+
+#Call the finish procedure after 5 seconds of simulation time
+$ns at 5.0 "finish"
+
+#Print CBR packet size and interval
+#CBR packet size = 1000
+puts "CBR packet size = [$cbr set packet_size_]"
+#CBR interval = 0.0080000000000000002
+puts "CBR interval = [$cbr set interval_]"
+
+#Run the simulation
+$ns run
+
+
