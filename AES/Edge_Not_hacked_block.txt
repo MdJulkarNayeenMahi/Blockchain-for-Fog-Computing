@@ -1,0 +1,81 @@
+Data Info: In this tutorial of Selenium Python series.
+Block Hash: c48b09e7d495b0187247e1ee99402add6fcae6c78e0b0864a88fe6c614cd6acbf45170267c77e4ab938033f2c0b94307377395ec6251fadf55fb3879147f5009
+BlockNo: 1
+Block Data: Block 1
+Hashes: 4743833
+Encrypted: b'\x89\xba\x031\xc4\x99\x82\xfb\xe5 @\xac\n\xf4%D\\\xe2\xf6\xe8' Finish Time: 48.1413874
+Decript: kFkx@bkSL^Jjvugu3dv&
+Decript Delay: 48.1418555
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 51fe20018a75312c10f481e6fc414b7221b24f9ceba987901b6beeb2d0d1e30b384f2089d2f3cc23bbc578c866a6f0c44c05f8dc63f9fd5cdae8d37122722d85
+BlockNo: 2
+Block Data: Block 2
+Hashes: 17465
+Encrypted: b'\xd2\xa4K\x1c\xf9\xcf\xa6\xc5\xdf\x04^\x8fY\xb5-SX\xee\xd7\x83' Finish Time: 48.2621523
+Decript: 0X#U}4OmvzTI%4ob7hWM
+Decript Delay: 48.2626154
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 76cb7ba6eaa53ac3583caaefea216b0a9b0aa412af8d96843860cfaeda67b25710bd4fe7b95d3fe9d8a42ae9ab1ccadd53b61456d523a9a0f6cb94c9177a0de3
+BlockNo: 3
+Block Data: Block 3
+Hashes: 18552
+Encrypted: b'\x8a\xbeC\n\xf9\xcc\xa0\xc0\x82/E\xa7>\xaapfL\xd4\xe9\xfe' Finish Time: 48.3889391
+Decript: hB+C}7Ih+QOaB+2W#Ri0
+Decript Delay: 48.3894037
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: d7fbe9e769268ad59fbb93be60a410af350b496a37575094ba40454ea91eddc398098e0818cdc36ee44b4c3db684af69b729be579570ef3e35c6f4f7eedbe028
+BlockNo: 4
+Block Data: Block 4
+Hashes: 43987
+Encrypted: b'\xad\xc9\\!\xe5\xbe\xc0\x91\x8cWO\x98\x16\xe0pC&\xde\xa4\xa8' Finish Time: 48.6458777
+Decript: O54haE)9%)E^ja2rIX$f
+Decript Delay: 48.6463469
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 7fd6ee1ba9a5cc53873b72ef09e3b8e8dfbf2d09ecfada2281740f506ca5310a025c8f59b777f6805222447bdfacc7e9268279e86dda059adfeeca62a073f9bb
+BlockNo: 5
+Block Data: Block 5
+Hashes: 905609
+Encrypted: b'\xa5\x96\x0e#\xae\x89\xad\xce\x80\x19<\xa9_\xb49]\x18\xd3\xf4\xb6' Finish Time: 53.7129076
+Decript: Gjfj*rDf)g6o#5{lwUtx
+Decript Delay: 53.7133728
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 841cba3a30c4a2e318ca3037764d167ff3056e2bd2bd2b5f590558a53c340831b34ce592cf4fe950e92957bbc4d3ede67d2f551d549a5055dfb277feab754ea7
+BlockNo: 6
+Block Data: Block 6
+Hashes: 341166
+Encrypted: b'\x93\xdf[\x1c\xf6\xcd\xac\x99\xf7\x1f]\xf3\x0e\xcc\x0cV>\xca\xe8\xa2' Finish Time: 55.6256523
+Decript: q#3Ur6E1^aW5rMNgQLhl
+Decript Delay: 55.6261171
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: bdf5b0980c41dba9797dc9ab8ab5d3a57b72c06de5db510c038eaa3b701cc7078b86ab31ac71670d8e5c5bbe3977dd0c3d8aa453f3043652d2d5b9713eb9fe6d
+BlockNo: 7
+Block Data: Block 7
+Hashes: 2596523
+Encrypted: b'\xd0\x90\x11(\xb1\xbe\x99\xf7\x9f_d\xee\x18\xa2?o\n\xac\xea\xab' Finish Time: 70.1178516
+Decript: 2lya5Ep_6!n(d#}^e*je
+Decript Delay: 70.1183785
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 4cbc2377894f3f8fe7f187e939b6e536b1133fb1d4af15bc6ce7ed81eda0a3fe84facf5d6d3a01cd1eda7cc37dd0e5c1047e4c1f16087e8046e8203d927bc5e3
+BlockNo: 8
+Block Data: Block 8
+Hashes: 3048437
+Encrypted: b'\xd7\xd9\x1f\x1a\xa4\xde\xcd\xca\xd9;O\xab)\xf82v\x00\xb4\xc7\x9f' Finish Time: 86.9973658
+Decript: 5%wS %$bpEEmUypGo2GQ
+Decript Delay: 86.9978483
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 3071957048ecd5b672e0979324a0ea42db6943ab89d1a7f20b74feb104ffdd93153a0b341e767076d6b13cd396463ddbbd8fbfe358724241ddb331b2aee6c440
+BlockNo: 9
+Block Data: Block 9
+Hashes: 68510
+Encrypted: b'\x96\x939\x11\xef\xb3\xda\xea\xca1N\xb4]\xc5#Z.\xa7\xd8\xbb' Finish Time: 87.4291733
+Decript: toQXkH3BcODr!DakA!Xu
+Decript Delay: 87.4296415
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: cd3853726de2c615a7410d89718408ed3e13a0e19b10914509e99dd54eee414bd510d6abbc1dc77d71172785cfa3fe393e7eaa99cd8d906653040be8594da289
+BlockNo: 10
+Block Data: Block 10
+Hashes: 1099197
+Encrypted: b'\x93\xac){\xc3\xc8\x9a\xd9\xcbI:\xa1\x04\xf1*q=\xd7\xde\xa8' Finish Time: 93.6146925
+Decript: qPA2G3sqb70gxph@RQ^f
+Decript Delay: 93.6151596
+--------------

@@ -1,0 +1,88 @@
+\title{AlgorithmTemplate}
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[ruled,vlined]{algorithm2e}
+\include{pythonlisting}
+\begin{document} 
+\begin{algorithm}[H]
+\SetAlgoLined
+\KwResult{Write here the result }
+ \State $ plaintext \gets Alpha numeric password $\;
+ \State $ Block Number \gets From 1 to 10 $\;
+ \While{cont.lower() == "y"}{
+  Statement\;
+  \eIf{0 < choice and choice <= 10}{
+   \State $ password \gets Strings $\;
+   \eIf{plaintext == password}{
+   Execute Blockchain blocks without Hacked blocks\;
+   \State See Hacked Blocks \gets yes\: or\: no\;\newline
+   \eIf{See Hacked Blocks == "yes"}{
+   Fog.hello.printerr(plaintext,block_number)\;
+            \begin{lstlisting}
+                def class(delay) \newline
+                Count delay:\newline
+                    delay for block 1: \newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 2: \newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 3: \newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 4: \newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 5: \newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 6:\newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 7:\newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 9:\newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 8:\newline
+                        19.3630169\: sec\;  \newline
+                    delay for block 10:\newline
+                        19.3630169\: sec\;\newline
+            end class\newline
+                def delay(block_number) \newline
+                     if(block == block_number)\newline
+                        break \;\newline
+                        return hacked block information to fog\;\newline
+                    else\newline
+                        break\;\newline
+                end class 
+        \end{lstlisting}
+   }{
+   Break\;
+   }
+   }{
+        \begin{lstlisting}
+                class block()\newline
+                    return block;\newline
+                    end class\newline
+                    class blockchain.main()\newline
+                     if block==1:\newline
+                         for n in range( block ):\newline
+                             blockchain.mine(Block("Block " + str(n+1)))\newline
+                         for n in range(10-1):\newline
+                             blockchain.mine(Block("Block " + str(n+ block +1)))\newline
+                end class
+        \end{lstlisting}
+  }
+
+   }{
+   Invalid Input\;\newline
+   \State Cont \gets yes\: or\: no \;\newline
+   \eIf{Cont == "yes"}{
+   continue\;
+   }
+   {
+   break\;
+   }
+  }
+ }
+ \caption{Device followed algorithms}
+\end{algorithm}
+
+
+\end{document}
