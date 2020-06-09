@@ -1,0 +1,11 @@
+
+Data Info: Meet me tomorrow at 2pm with a bag of taka 2 lac near at BRAC BANK, Mtijheel Brance.
+Block Hash: 7a0f166a5e0364f313fd469c621884973ad2865607d323a782b47884bcbc8973
+BlockNo: 1
+Block Data: Block 2
+Hashes: 5388964
+Encrypted: b'\x9eGQ$\xf1\x8b\xc5\xb6\xba\xb7\xe4\xf7\xe4\xa4t\xff\xe28\xa1\x04\xae\x08\xf7-'
+Encrypet Delay time: 452.675745577
+Decript: b'\x9eGQ$\xf1\x8b\xc5\xb6\xba\xb7\xe4\xf7\xe4\xa4t\xff\xe28\xa1\x04\xae\x08\xf7-'
+Decript Delay: 452.688648064
+--------------

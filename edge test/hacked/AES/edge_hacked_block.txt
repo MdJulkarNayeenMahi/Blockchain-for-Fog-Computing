@@ -1,0 +1,82 @@
+Data Info: In this tutorial of Selenium Python series.
+Block Hash: 8ae2a8030a196ab2c8832adea21076d6502f3daa251dcaabe53d4e10843f5d46
+BlockNo: 1
+Block Data: Block 1
+Hashes: 1986738
+Encrypted: b'\xb4\x8aH\t\xc0\x93\xca\x8b\x991.\xe0+\xf7\x08}(\xf2\xf6\xe5'
+Encrypet Delay time: 392.534514583
+Decript: Vv @Dh##0O$&WvJLGtv+
+Decript Delay: 392.536732308
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: b3a8cbd98edc3094c835026fa27334173a44dd5a8eb1e3f5cda7ce1bcb11a25d
+BlockNo: 2
+Block Data: Block 2
+Hashes: 884772
+Encrypted: b'\xc4\xcd)\x1e\xcd\x8a\xdf\xf9\xfa_`\xe7.\xd2(s \xc3\xde\xb3'
+Encrypet Delay time: 403.974568167
+Decript: &1AWIq6QS!j!RSjBOE^}
+Decript Delay: 403.976616283
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 343e2d5dccff33f4fc201ccc3f0a524a69a936154ffaebf88f7c43d12a01707b
+BlockNo: 3
+Block Data: Block 4
+Hashes: 4592631
+Encrypted: b'\xda\xcfP\x13\xef\xcb\xb3\xf6\x9f0{\xf3\x13\xe4k_ \xce\xf2\x8b'
+Encrypet Delay time: 463.050372116
+Decript: 838Zk0Z^6Nq5oe)nOHrE
+Decript Delay: 463.052461194
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 9c7c5fc575544cff06fd0ea5ba474d60427bc07895319020de0791d720749062
+BlockNo: 4
+Block Data: Block 5
+Hashes: 22801857
+Encrypted: b'\xd2\xce\x0b!\xf0\x9d\x9b\x8d\x8c\x0eP\xbb>\xd1cL\\\xcf\xc1\x85'
+Encrypet Delay time: 750.126679774
+Decript: 02chtfr%%pZ}BP!}3IAK
+Decript Delay: 750.12873109
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 16603354f66acc63d0ab9f45f902f794d6542df95fb1a04604ebbbe09304a786
+BlockNo: 5
+Block Data: Block 6
+Hashes: 662406
+Encrypted: b'\xdb\xa29\x06\xbc\xa1\xde\xfc\xe9/p\xe7\x1e\xf3\x1d}(\xd0\xe4\xb5'
+Encrypet Delay time: 758.934280458
+Decript: 9^QO8Z7T@Qz!br_LGVd{
+Decript Delay: 758.936336894
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 890521e41ee1606250ae4b0a214d2f8f5f75596f54a69632dd1d32a1901788e0
+BlockNo: 6
+Block Data: Block 7
+Hashes: 394323
+Encrypted: b'\x8d\xbb i\xf4\xcd\xbf\x8e\xc2 _\xe5J\xf8\x00x\x1a\xdf\xf2\x88'
+Encrypet Delay time: 764.286115954
+Decript: oGH p6V&k^U#6yBIuYrF
+Decript Delay: 764.288169189
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 2b3680b82143fab1fcd6af3765b4c0d2af6a349099a727aeec5eee079b59866f
+BlockNo: 7
+Block Data: Block 8
+Hashes: 6591996
+Encrypted: b'\xa2\xc9+,\xc9\xb2\x80\xce\xe1\rZ\x8cW\xfc.T\r\xd2\xfb\xe8'
+Encrypet Delay time: 847.51741474
+Decript: @5CeMIifHsPJ+}lebT{&
+Decript Delay: 847.519462216
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: 6dada4102e6ebd29dc5705c6b5c835d4982e7a3937bbcf75e3e0ff2bc052d601
+BlockNo: 8
+Block Data: Block 9
+Hashes: 3538065
+Encrypted: b'\x96\xca*\x13\xc5\xce\x8a\x8e\x82J3\xac?\xe0kL6\xfb\xab\xfc'
+Encrypet Delay time: 892.30665087
+Decript: t6BZA5c&+49jCa)}Y}+2
+Decript Delay: 892.308759149
+--------------Data Info: In this tutorial of Selenium Python series.
+Block Hash: ea3e3246e7acbf630137d2854fdebd85394eef6c4dad8b17c1c93fb5faaf7218
+BlockNo: 9
+Block Data: Block 10
+Hashes: 238797
+Encrypted: b'\xa1\x93\x1eo\xa4\x82\xac\xcb\x8c:x\x81V\xc4,\x00&\xe3\xc3\xbd'
+Encrypet Delay time: 895.678125232
+Decript: Cov& yEc%DrG*En1IeCs
+Decript Delay: 895.680248231
+--------------
